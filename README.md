@@ -133,3 +133,11 @@ agi1_autonomous_os/lab/
 scripts/
 tests/
 ```
+
+## Foundation Docs
+
+- [AGI_MATHEMATICAL_FRAMEWORK.md](/Users/jatoine/Documents/AGI-1-SuperIntelligent-Mind/AGI_MATHEMATICAL_FRAMEWORK.md)
+- [DATA_SCHEMAS.md](/Users/jatoine/Documents/AGI-1-SuperIntelligent-Mind/DATA_SCHEMAS.md)
+- [COMMUNICATION_PROTOCOL.md](/Users/jatoine/Documents/AGI-1-SuperIntelligent-Mind/COMMUNICATION_PROTOCOL.md)
+- [TRAINING_PIPELINE.md](/Users/jatoine/Documents/AGI-1-SuperIntelligent-Mind/TRAINING_PIPELINE.md)
+- [EVALUATION_BENCHMARKS.md](/Users/jatoine/Documents/AGI-1-SuperIntelligent-Mind/EVALUATION_BENCHMARKS.md)

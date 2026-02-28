@@ -26,6 +26,17 @@ class Observation:
 
 
 @dataclass
+class BeliefNode:
+    concept: str
+    probability: float
+    evidence_links: list[str]
+    updated_at: str = field(default_factory=utc_now)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
 class GoalRecord:
     goal_id: str
     description: str
@@ -110,6 +121,20 @@ class FeedbackRecord:
     error_analysis: list[str]
     confidence_delta: float
     created_at: str = field(default_factory=utc_now)
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class AGIMessage:
+    sender: str
+    receiver: str
+    intent: str
+    data: dict[str, Any]
+    confidence: float
+    priority: float
+    timestamp: str = field(default_factory=utc_now)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
