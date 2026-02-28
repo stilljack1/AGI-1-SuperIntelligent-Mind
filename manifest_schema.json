@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AGI-1 Deployment Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "manifest_id",
+    "mode",
+    "generated_at",
+    "system",
+    "executives",
+    "capabilities",
+    "signature"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "manifest_id": { "type": "string" },
+    "mode": { "type": "string", "enum": ["staging", "production"] },
+    "generated_at": { "type": "string" },
+    "system": {
+      "type": "object",
+      "required": ["name", "version", "release_stage"],
+      "properties": {
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "release_stage": { "type": "string" }
+      }
+    },
+    "executives": {
+      "type": "array",
+      "minItems": 4
+    },
+    "capabilities": {
+      "type": "object"
+    },
+    "signature": {
+      "type": "object",
+      "required": ["algorithm", "value"],
+      "properties": {
+        "algorithm": { "type": "string" },
+        "value": { "type": "string" }
+      }
+    }
+  }
+}

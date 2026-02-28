@@ -1,0 +1,13 @@
+{
+  "schema_version": "v1",
+  "description": "Reasoning provenance cache and telemetry schema for AGI-1 brain traces.",
+  "fields": {
+    "cache_key": "sha256(task_input|actor|priority|mode)",
+    "mode": "FAST|THINK|STRICT",
+    "history_score": "Recent success ratio for the same mode.",
+    "challenge_score": "Difficulty estimate derived from task/context size.",
+    "candidates_considered": "Dynamic candidate count after scheduler adjustment.",
+    "best_energy": "Minimum candidate energy selected by the orchestrator.",
+    "success": "True when best_energy <= threshold."
+  }
+}

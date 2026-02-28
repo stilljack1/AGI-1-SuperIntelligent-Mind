@@ -1,0 +1,8 @@
+{
+  "cluster_name": "agi1-research-lab-35",
+  "agent_count": 35,
+  "roles": {
+    "research": ["evaluation", "benchmarking", "planning", "safety_analysis"],
+    "engineering": ["runtime", "memory", "safety", "mobile", "infra", "telemetry"]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "pm": "PM: OpenClaw",
+  "exec": "Exec: Jack | Julia | Singularity | Aegis",
+  "mode": "staging",
+  "generated_at": "2026-02-25T02:45:31.035751+00:00",
+  "required_capabilities": [
+    "handshake_enforcement",
+    "task_create_and_stream",
+    "call_session_create_and_token",
+    "auth_replay_protection_basic",
+    "adapter_preflight_aws_railway_render"
+  ],
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "handshake_enforcement",
+      "result": "PASS",
+      "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/handshake_enforcement.json",
+      "timestamp_utc": "2026-02-25T02:45:24.490992+00:00"
+    },
+    {
+      "name": "task_create_and_stream",
+      "result": "PASS",
+      "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/task_create_and_stream.json",
+      "timestamp_utc": "2026-02-25T02:45:24.651565+00:00"
+    },
+    {
+      "name": "call_session_create_and_token",
+      "result": "PASS",
+      "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/call_session_create_and_token.json",
+      "timestamp_utc": "2026-02-25T02:45:24.795238+00:00"
+    },
+    {
+      "name": "auth_replay_protection_basic",
+      "result": "PASS",
+      "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/auth_replay_protection_basic.json",
+      "timestamp_utc": "2026-02-25T02:45:24.978005+00:00"
+    },
+    {
+      "name": "adapter_preflight_aws_railway_render",
+      "result": "PASS",
+      "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/adapter_preflight_aws_railway_render.json",
+      "timestamp_utc": "2026-02-25T02:45:31.034973+00:00"
+    }
+  ],
+  "agents": {
+    "jack": {
+      "verified_capabilities": [
+        "handshake_enforcement",
+        "task_create_and_stream",
+        "call_session_create_and_token",
+        "auth_replay_protection_basic",
+        "adapter_preflight_aws_railway_render"
+      ],
+      "capabilities": [
+        {
+          "name": "handshake_enforcement",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/handshake_enforcement.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "task_create_and_stream",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/task_create_and_stream.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "call_session_create_and_token",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/call_session_create_and_token.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "auth_replay_protection_basic",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/auth_replay_protection_basic.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "adapter_preflight_aws_railway_render",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/adapter_preflight_aws_railway_render.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        }
+      ],
+      "all_required_pass": true
+    },
+    "julia": {
+      "verified_capabilities": [
+        "handshake_enforcement",
+        "task_create_and_stream",
+        "call_session_create_and_token",
+        "auth_replay_protection_basic",
+        "adapter_preflight_aws_railway_render"
+      ],
+      "capabilities": [
+        {
+          "name": "handshake_enforcement",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/handshake_enforcement.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "task_create_and_stream",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/task_create_and_stream.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "call_session_create_and_token",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/call_session_create_and_token.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "auth_replay_protection_basic",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/auth_replay_protection_basic.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "adapter_preflight_aws_railway_render",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/adapter_preflight_aws_railway_render.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        }
+      ],
+      "all_required_pass": true
+    },
+    "singularity": {
+      "verified_capabilities": [
+        "handshake_enforcement",
+        "task_create_and_stream",
+        "call_session_create_and_token",
+        "auth_replay_protection_basic",
+        "adapter_preflight_aws_railway_render"
+      ],
+      "capabilities": [
+        {
+          "name": "handshake_enforcement",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/handshake_enforcement.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "task_create_and_stream",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/task_create_and_stream.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "call_session_create_and_token",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/call_session_create_and_token.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "auth_replay_protection_basic",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/auth_replay_protection_basic.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "adapter_preflight_aws_railway_render",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/adapter_preflight_aws_railway_render.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        }
+      ],
+      "all_required_pass": true
+    },
+    "aegis": {
+      "verified_capabilities": [
+        "handshake_enforcement",
+        "task_create_and_stream",
+        "call_session_create_and_token",
+        "auth_replay_protection_basic",
+        "adapter_preflight_aws_railway_render"
+      ],
+      "capabilities": [
+        {
+          "name": "handshake_enforcement",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/handshake_enforcement.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "task_create_and_stream",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/task_create_and_stream.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "call_session_create_and_token",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/call_session_create_and_token.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "auth_replay_protection_basic",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/auth_replay_protection_basic.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        },
+        {
+          "name": "adapter_preflight_aws_railway_render",
+          "proof_artifact_path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/capability_proofs/adapter_preflight_aws_railway_render.json",
+          "timestamp_utc": "2026-02-25T02:45:31.035751+00:00",
+          "result": "PASS"
+        }
+      ],
+      "all_required_pass": true
+    }
+  }
+}

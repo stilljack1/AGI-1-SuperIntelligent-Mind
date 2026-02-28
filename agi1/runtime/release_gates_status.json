@@ -1,0 +1,52 @@
+{
+  "pm": "PM: OpenClaw",
+  "exec": "Exec: Jack | Julia | Singularity | Aegis",
+  "schema_version": "v1",
+  "mode": "staging",
+  "overall": "PASS",
+  "gates": {
+    "acceptance": "PASS",
+    "runtime_checks": "PASS",
+    "no_regressions": "PASS"
+  },
+  "reasons": [],
+  "computed_at": "2026-02-25T02:32:14.973571+00:00",
+  "evidence_used": [
+    {
+      "name": "final_smoke",
+      "path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/final_smoke_report.json",
+      "required": true,
+      "passed": true,
+      "age_hours": 7.238,
+      "reasons": []
+    },
+    {
+      "name": "load_report",
+      "path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/load_report.json",
+      "required": true,
+      "passed": true,
+      "age_hours": 7.238,
+      "reasons": []
+    },
+    {
+      "name": "kill_switch_drill",
+      "path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/drill_report.json",
+      "required": true,
+      "passed": true,
+      "age_hours": 7.237,
+      "reasons": []
+    },
+    {
+      "name": "duix_stream",
+      "path": "/Users/jatoine/Documents/agi1-avatar/agi1/runtime/duix_stream_report.json",
+      "required": false,
+      "passed": false,
+      "age_hours": 48.412,
+      "reasons": [
+        "duix_stream:stale_or_missing>24h"
+      ]
+    }
+  ],
+  "release_spec_path": "/Users/jatoine/Documents/agi1-avatar/agi1/RELEASE_GATES.json",
+  "evidence_dir": "runtime"
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+node_modules/
+
+runtime/*.json
+runtime/*.log
+agi-core/runtime/state/*.json
+agi-core/runtime/state/memory/*.json
+
+apps/mobile/src/generated/buildEnv.ts
