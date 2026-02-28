@@ -83,6 +83,16 @@ This repo isolates the AGI-1 foundation and launch tooling:
 - `packages/agi_brain/`
 - `packages/memory/src/memory_os/`
 
+## Environment Bootstrap
+
+This repo includes non-secret templates in `env_templates/` and a helper:
+
+```bash
+bash scripts/bootstrap_env_files.sh
+```
+
+That creates `~/.agi1/staging.env` and `~/.agi1/production.env` if they do not already exist. The templates intentionally leave real secrets blank; they are a source-of-truth schema, not a substitute for your actual credentials.
+
 ## Runnable Simulations
 
 Supervisor swarm metrics:
