@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: agi1-superintelligent-mind
+    env: python
+    buildCommand: pip install -r requirements.txt || echo 'No requirements'
+    startCommand: python3 codex_core.py
+    envVars:
+      - key: BRIDGE_URL
+        value: http://18.227.183.151:8080
+      - key: AGENT_NAME
+        value: Jack
