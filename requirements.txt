@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 gunicorn
-livekit-server-sdk
 livekit-api
 boto3
 groq
